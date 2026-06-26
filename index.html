@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شركة الرياض للديكور | Riyadh Decor - Luxury Interior Architecture</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital@0;1&family=Cairo:wght@300;400;600&family=Inter:wght@200;300;400&family=Playfair+Display:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        cream: '#FAF8F5',
+                        velvet: '#111111',
+                        espresso: '#1C1C1C',
+                        gold: {
+                            DEFAULT: '#C5A059',
+                            dark: '#A88443',
+                            light: '#D4AF37'
+                        }
+                    },
+                    fontFamily: {
+                        serifEn: ['"Playfair Display"', 'serif'],
+                        serifAr: ['"Amiri"', 'serif'],
+                        sansEn: ['"Inter"', 'sans-serif'],
+                        sansAr: ['"Cairo"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #FAF8F5;
+            color: #1C1C1C;
+        }
+        .letter-spacing-widest {
+            letter-spacing: 0.2em;
+        }
+    </style>
+</head>
+<body class="font-sansAr antialiased overflow-x-hidden selection:bg-gold selection:text-velvet">
+
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-500 border-b border-transparent backdrop-blur-md bg-transparent">
+        <div class="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
+            
+            <a href="#" class="flex items-center gap-3 group text-white transition-colors duration-300" id="nav-brand">
+                <svg class="w-8 h-8 text-gold transition-transform duration-700 group-hover:rotate-180" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 80V20H30V80H20Z" fill="currentColor"/>
+                    <path d="M45 80V20H55V80H45Z" fill="currentColor"/>
+                    <path d="M70 80V20H80V80H70Z" fill="currentColor"/>
+                    <path d="M10 20H90V12H10V20Z" fill="currentColor"/>
+                    <path d="M15 88H85V80H15V88Z" fill="currentColor"/>
+                </svg>
+                <div class="flex flex-col items-start leading-tight">
+                    <span class="font-serifAr text-xl tracking-wide font-bold text-gold drop-shadow-sm">شركة الرياض للديكور</span>
+                    <span class="font-sansEn text-[9px] uppercase tracking-[0.3em] opacity-60">Riyadh Decor</span>
+                </div>
+            </a>
+
+            <div class="hidden lg:flex items-center gap-10">
+                <a href="#" class="nav-link text-sm font-medium tracking-wide transition-colors duration-300 relative py-2 text-white" data-target="#">الرئيسية</a>
+                <a href="#about" class="nav-link text-sm font-medium tracking-wide transition-colors duration-300 relative py-2 text-white/70 hover:text-white" data-target="about">من نحن</a>
+                <a href="#portfolio" class="nav-link text-sm font-medium tracking-wide transition-colors duration-300 relative py-2 text-white/70 hover:text-white" data-target="portfolio">أعمالنا</a>
+                <a href="#services" class="nav-link text-sm font-medium tracking-wide transition-colors duration-300 relative py-2 text-white/70 hover:text-white" data-target="services">خدماتنا</a>
+                <a href="#booking" class="nav-link text-sm font-medium tracking-wide transition-colors duration-300 relative py-2 text-white/70 hover:text-white" data-target="booking">الحجوزات</a>
+            </div>
+
+            <div>
+                <a href="https://wa.me/966559353503" target="_blank" class="border border-gold text-gold hover:bg-gold hover:text-velvet px-6 py-2.5 text-xs uppercase tracking-widest font-semibold transition-all duration-300 rounded-none inline-block">
+                    إحجز استشارتك الآن
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="relative h-screen flex items-center justify-center bg-velvet overflow-hidden">
+        <video class="absolute top-0 left-0 w-full h-full object-cover opacity-45 pointer-events-none" autoplay loop muted playsinline>
+            <source src="4140808289910604335.mp4" type="video/mp4">
+        </video>
+        
+        <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/40 to-velvet"></div>
+
+        <div class="relative z-10 max-w-5xl mx-auto px-6 text-center mt-16">
+            <span class="font-sansEn text-xs uppercase tracking-[0.5em] text-gold block mb-6 animate-pulse">ARCHITECTURE & INTERIORS</span>
+            
+            <h1 class="font-serifAr text-4xl md:text-6xl lg:text-7xl text-white leading-tight md:leading-snug font-medium mb-8">
+                ديكورات الرياض.. نصنع من المساحات <br>
+                <span class="font-serifEn italic text-gold font-light">لوحات فنية خالدة</span>
+            </h1>
+            
+            <p class="font-sansEn text-sm md:text-base text-gray-300 max-w-2xl mx-auto font-light leading-relaxed mb-12 tracking-wide">
+                The absolute pinnacle of luxury interior design, architectural execution, and elite engineering supervision in Saudi Arabia.
+            </p>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
+                <a href="#portfolio" class="w-full sm:w-auto bg-gold hover:bg-gold-light text-velvet px-8 py-4 text-xs font-semibold uppercase tracking-widest transition-all duration-300">
+                    تصفح مشاريع النخبة
+                </a>
+                <a href="https://wa.me/966559353503" target="_blank" class="w-full sm:w-auto border border-white/30 hover:border-white text-white px-8 py-4 text-xs font-semibold uppercase tracking-widest transition-all duration-300 bg-white/5 backdrop-blur-sm">
+                    تواصل مباشر عبر الواتساب
+                </a>
+            </div>
+        </div>
+
+        <div class="absolute bottom-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-gold/30 to-transparent"></div>
+    </section>
+
+    <section id="about" class="py-24 bg-cream border-b border-neutral-200/60">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <span class="font-sansEn text-xs uppercase tracking-[0.3em] text-gold/80 block mb-3">THE PHILOSOPHY</span>
+            <h2 class="font-serifAr text-3xl text-espresso mb-6">مفهوم جديد للهندسة المعمارية الراقية</h2>
+            <p class="text-neutral-600 font-light leading-relaxed max-w-2xl mx-auto text-sm md:text-base">
+                نحن في شركة الرياض للديكور لا نكتفي بملء الفراغات؛ بل نمنحها روحاً تعكس الفخامة المطلقة. نجمع بين الإبداع الفني والدقة الهندسية لنلبي تطلعات النخبة في أرقى أحياء العاصمة والمملكة.
+            </p>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-28 bg-cream">
+        <div class="max-w-7xl mx-auto px-6">
+            
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 mb-16 border-b border-neutral-200/60 pb-8">
+                <div>
+                    <span class="font-sansEn text-xs uppercase tracking-[0.4em] text-gold block mb-2">CURATED COLLECTIONS</span>
+                    <h2 class="font-serifAr text-4xl text-espresso font-medium">مجموعتنا المختارة من مشاريع النخبة</h2>
+                </div>
+                
+                <div class="flex flex-wrap gap-4 md:gap-8 text-xs uppercase tracking-wider font-semibold">
+                    <button class="portfolio-tab relative py-2 text-gold border-b-2 border-gold transition-all duration-300" data-filter="all">
+                        الكل
+                    </button>
+                    <button class="portfolio-tab relative py-2 text-neutral-400 hover:text-espresso border-b-2 border-transparent transition-all duration-300" data-filter="interior">
+                        التصميم الداخلي
+                    </button>
+                    <button class="portfolio-tab relative py-2 text-neutral-400 hover:text-espresso border-b-2 border-transparent transition-all duration-300" data-filter="execution">
+                        التنفيذ والإشراف الهندسي
+                    </button>
+                    <button class="portfolio-tab relative py-2 text-neutral-400 hover:text-espresso border-b-2 border-transparent transition-all duration-300" data-filter="exterior">
+                        الديكورات الخارجية والحدائق
+                    </button>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="portfolio-grid">
+                
+                <div class="portfolio-item group relative overflow-hidden border border-neutral-200 bg-white transition-all duration-500 hover:shadow-xl" data-category="interior">
+                    <div class="aspect-[4/5] overflow-hidden bg-neutral-100">
+                        <img src="IMG_9538.jpeg" alt="Luxury Interior Layout" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                    </div>
+                    <div class="p-6 bg-white border-t border-neutral-100 transition-colors duration-300 group-hover:border-gold/50">
+                        <span class="text-[10px] uppercase tracking-widest text-gold block mb-1">INTERIOR DESIGN</span>
+                        <h3 class="font-serifAr text-lg text-espresso mb-2">قصر فاخر - حطين</h3>
+                        <p class="text-xs text-neutral-500 font-light">تنسيق متكامل للأثاث والأسقف الفندقية الراقية.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item group relative overflow-hidden border border-neutral-200 bg-white transition-all duration-500 hover:shadow-xl" data-category="execution">
+                    <div class="aspect-[4/5] overflow-hidden bg-neutral-100">
+                        <img src="IMG_9547.jpeg" alt="Execution Blueprint Architecture" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                    </div>
+                    <div class="p-6 bg-white border-t border-neutral-100 transition-colors duration-300 group-hover:border-gold/50">
+                        <span class="text-[10px] uppercase tracking-widest text-gold block mb-1">EXECUTION & SUPERVISION</span>
+                        <h3 class="font-serifAr text-lg text-espresso mb-2">فيلا مودرن - الياسمين</h3>
+                        <p class="text-xs text-neutral-500 font-light">إشراف هندسي صارم ومطابقة دقيقة لأعلى معايير جودة التنفيذ.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item group relative overflow-hidden border border-neutral-200 bg-white transition-all duration-500 hover:shadow-xl" data-category="exterior">
+                    <div class="aspect-[4/5] overflow-hidden bg-neutral-100">
+                        <img src="IMG_9548.jpeg" alt="Exterior Architectural Landscaping" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                    </div>
+                    <div class="p-6 bg-white border-t border-neutral-100 transition-colors duration-300 group-hover:border-gold/50">
+                        <span class="text-[10px] uppercase tracking-widest text-gold block mb-1">EXTERIOR & LANDSCAPING</span>
+                        <h3 class="font-serifAr text-lg text-espresso mb-2">مجلس خارجي ولاندسكيب - الملقا</h3>
+                        <p class="text-xs text-neutral-500 font-light">مساحات خارجية تجمع بين الطبيعة وخطوط العمارة الحديثة.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item group relative overflow-hidden border border-neutral-200 bg-white transition-all duration-500 hover:shadow-xl" data-category="interior">
+                    <div class="aspect-[4/5] overflow-hidden bg-neutral-100">
+                        <img src="IMG_9549.jpeg" alt="Luxury Living Room Design" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                    </div>
+                    <div class="p-6 bg-white border-t border-neutral-100 transition-colors duration-300 group-hover:border-gold/50">
+                        <span class="text-[10px] uppercase tracking-widest text-gold block mb-1">INTERIOR DESIGN</span>
+                        <h3 class="font-serifAr text-lg text-espresso mb-2">جناح رئاسي خاص - النخيل</h3>
+                        <p class="text-xs text-neutral-500 font-light">تجربة بصرية مفعمة بالدفء وخامات الرخام المستورد.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item group relative overflow-hidden border border-neutral-200 bg-white transition-all duration-500 hover:shadow-xl" data-category="execution">
+                    <div class="aspect-[4/5] overflow-hidden bg-neutral-100 relative">
+                        <img src="IMG_9550.jpeg" alt="Elite Structural Finishing" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                        <div class="absolute inset-0 bg-black/10 flex items-center justify-center">
+                            <span class="bg-velvet/80 text-white text-[10px] tracking-widest uppercase px-3 py-1.5 backdrop-blur-sm">Showcase Video Available</span>
+                        </div>
+                    </div>
+                    <div class="p-6 bg-white border-t border-neutral-100 transition-colors duration-300 group-hover:border-gold/50">
+                        <span class="text-[10px] uppercase tracking-widest text-gold block mb-1">EXECUTION / VIDEO PROJECT</span>
+                        <h3 class="font-serifAr text-lg text-espresso mb-2">صالة استقبال ملكية - الغدير</h3>
+                        <p class="text-xs text-neutral-500 font-light">تكسيات جدارية مخصصة تم تنفيذها تحت إشراف هندسي كامل.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item group relative overflow-hidden border border-neutral-200 bg-white transition-all duration-500 hover:shadow-xl" data-category="exterior">
+                    <div class="aspect-[4/5] overflow-hidden bg-neutral-100">
+                        <img src="IMG_9539.jpeg" alt="Water Feature Landscaping" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                    </div>
+                    <div class="p-6 bg-white border-t border-neutral-100 transition-colors duration-300 group-hover:border-gold/50">
+                        <span class="text-[10px] uppercase tracking-widest text-gold block mb-1">EXTERIOR & LANDSCAPING</span>
+                        <h3 class="font-serifAr text-lg text-espresso mb-2">واجهة مودرن مع شلال جداري - النرجس</h3>
+                        <p class="text-xs text-neutral-500 font-light">دمج متوازن للإضاءة المخفية والعناصر المائية الذكية.</p>
+                    </div>
+                </div>
+
+                </div>
+        </div>
+    </section>
+
+    <section id="services" class="w-full flex flex-col lg:flex-row">
+        <div class="w-full lg:w-1/2 bg-velvet text-white p-12 md:p-24 flex flex-col justify-between items-start min-h-[600px]">
+            <div>
+                <span class="font-sansEn text-xs uppercase tracking-[0.4em] text-gold block mb-6">DESIGN SERVICES</span>
+                <h2 class="font-serifAr text-3xl md:text-5xl font-medium leading-tight mb-8">خطواتنا المدروسة لهندسة الأناقة</h2>
+                
+                <div class="space-y-8 mt-12">
+                    <div class="flex items-start gap-4">
+                        <span class="font-serifEn text-lg text-gold font-light">01/</span>
+                        <div>
+                            <h4 class="font-serifAr text-lg font-medium mb-1">المخططات الهندسية والأبعاد الثلاثية (3D)</h4>
+                            <p class="text-sm text-neutral-400 font-light">رؤية واقعية دقيقة للمساحات قبل البدء بالتنفيذ الفعلي.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <span class="font-serifEn text-lg text-gold font-light">02/</span>
+                        <div>
+                            <h4 class="font-serifAr text-lg font-medium mb-1">اختيار وانتقاء المواد الفاخرة</h4>
+                            <p class="text-sm text-neutral-400 font-light">تنسيق أرقى أنواع الرخام، الأخشاب الطبيعية، وأنظمة الإضاءة الذكية.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <span class="font-serifEn text-lg text-gold font-light">03/</span>
+                        <div>
+                            <h4 class="font-serifAr text-lg font-medium mb-1">الإشراف والمطابقة الميدانية</h4>
+                            <p class="text-sm text-neutral-400 font-light">متابعة دقيقة من مهندسينا لضمان جودة تسليم تليق باستثمارك.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#booking" class="mt-12 bg-white text-velvet hover:bg-gold hover:text-velvet px-8 py-3.5 text-xs font-semibold uppercase tracking-widest transition-all duration-300">
+                Explore Services / ابدأ رحلتك معنا
+            </a>
+        </div>
+
+        <div class="w-full lg:w-1/2 bg-cream p-12 md:p-24 flex flex-col justify-between border-t lg:border-t-0 lg:border-r border-neutral-200">
+            <div>
+                <span class="font-sansEn text-xs uppercase tracking-[0.4em] text-gold block mb-6">FEATURED MATRICES</span>
+                <h2 class="font-serifAr text-3xl md:text-5xl text-espresso font-medium leading-tight mb-8">عناصر معمارية حصرية</h2>
+                <p class="text-neutral-600 text-sm md:text-base font-light leading-relaxed mb-12">
+                    نحن نهتم بأدق التفاصيل الهيكلية والبصرية؛ بدءاً من معالجة زوايا الظل والضوء، وصولاً إلى دمج التقنيات الحديثة في جدران القصور والفلل الفاخرة بشكل مخفي ومثالي.
+                </p>
+
+                <div class="grid grid-cols-2 gap-6 border-t border-neutral-200/80 pt-8">
+                    <div>
+                        <h5 class="font-sansEn text-xs font-semibold uppercase tracking-wider text-espresso mb-1">Premium Quality</h5>
+                        <p class="text-xs text-neutral-500 font-light">تنسيق دقيق للمواد وخامات فاخرة مستدامة.</p>
+                    </div>
+                    <div>
+                        <h5 class="font-sansEn text-xs font-semibold uppercase tracking-wider text-espresso mb-1">Saudi Heritage / Global Standard</h5>
+                        <p class="text-xs text-neutral-500 font-light">تصاميم مواكبة لرؤية المملكة بجودة هندسية عالمية.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 border border-neutral-200 p-6 bg-white flex items-center justify-between">
+                <div>
+                    <span class="text-[10px] text-neutral-400 block uppercase tracking-widest">Next Project Allocation</span>
+                    <span class="font-serifAr text-base text-espresso">جاهزية كاملة لتنفيذ المشاريع الكبرى في الرياض</span>
+                </div>
+                <div class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-ping"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking" class="py-28 bg-cream border-t border-neutral-200/60 relative">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+                
+                <div>
+                    <span class="font-sansEn text-xs uppercase tracking-[0.4em] text-gold block mb-3">DIGITAL ONBOARDING</span>
+                    <h2 class="font-serifAr text-4xl text-espresso font-medium leading-tight mb-8">خطط لمساحتك القادمة <br><span class="font-serifEn italic text-gold font-light">مع مهندسينا النخبة</span></h2>
+                    
+                    <p class="text-neutral-600 font-light leading-relaxed mb-8 text-sm md:text-base">
+                        من خلال ملء استمارة الحجز الفاخرة، سيقوم فريقنا الهندسي بدراسة طلبك المبدئي وجدولة زيارة معاينة للموقع تتضمن:
+                    </p>
+
+                    <ul class="space-y-4 text-sm text-neutral-700 font-light">
+                        <li class="flex items-center gap-3">
+                            <span class="w-1.5 h-1.5 bg-gold rounded-full"></span>
+                            <span>رفع القياسات والمساحات الدقيقة للموقع (Space Measurements).</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <span class="w-1.5 h-1.5 bg-gold rounded-full"></span>
+                            <span>تنسيق أولي مخصص لاختيار الخامات والمواد (Material Curation).</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <span class="w-1.5 h-1.5 bg-gold rounded-full"></span>
+                            <span>وضع تصور مبدئي ثلاثي الأبعاد للمخطط العام (3D Preliminary Concept).</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-white border border-neutral-200 p-8 md:p-12 shadow-sm transition-all duration-500 hover:shadow-md">
+                    <form id="bookingForm" class="space-y-8">
+                        
+                        <div class="relative z-0 w-full group">
+                            <input type="text" name="client_name" id="client_name" required class="block py-2.5 px-0 w-full text-sm text-espresso bg-transparent border-0 border-b border-neutral-300 appearance-none focus:outline-none focus:ring-0 focus:border-gold peer" placeholder=" " />
+                            <label for="client_name" class="peer-focus:font-medium absolute text-xs text-neutral-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-gold peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">الإسم الكامل الفاخر / Full Name *</label>
+                        </div>
+
+                        <div class="relative z-0 w-full group">
+                            <input type="text" name="location" id="location" required class="block py-2.5 px-0 w-full text-sm text-espresso bg-transparent border-0 border-b border-neutral-300 appearance-none focus:outline-none focus:ring-0 focus:border-gold peer" placeholder=" " />
+                            <label for="location" class="peer-focus:font-medium absolute text-xs text-neutral-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-gold peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">موقع المشروع أو الحي (مثال: فيلا - حطين) *</label>
+                        </div>
+
+                        <div class="relative z-0 w-full group">
+                            <input type="tel" name="whatsapp" id="whatsapp" required class="block py-2.5 px-0 w-full text-sm text-espresso bg-transparent border-0 border-b border-neutral-300 appearance-none focus:outline-none focus:ring-0 focus:border-gold peer text-left" dir="ltr" placeholder=" " />
+                            <label for="whatsapp" class="peer-focus:font-medium absolute text-xs text-neutral-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[100%] peer-focus:start-0 peer-focus:text-gold peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">رقم الواتساب / WhatsApp Number (+966) *</label>
+                        </div>
+
+                        <div class="relative z-0 w-full group">
+                            <label for="budget" class="block text-[11px] text-neutral-400 uppercase tracking-wider mb-2">النطاق التقديري للميزانية المتوقعة / Budget Bracket *</label>
+                            <select id="budget" name="budget" required class="block w-full py-2.5 px-2 text-sm text-espresso bg-cream border border-neutral-200 focus:outline-none focus:border-gold">
+                                <option value="50k-100k">50,000 ر.س - 100,000 ر.س</option>
+                                <option value="100k-300k">100,000 ر.س - 300,000 ر.س</option>
+                                <option value="300k-500k">300,000 ر.س - 500,000 ر.س</option>
+                                <option value="500k+">أكثر من 500,000 ر.س (مشاريع النخبة والقصور)</option>
+                            </select>
+                        </div>
+
+                        <div class="relative z-0 w-full group">
+                            <label for="date" class="block text-[11px] text-neutral-400 uppercase tracking-wider mb-2">تاريخ المعاينة المفضّل / Preferred Date *</label>
+                            <input type="date" id="date" name="date" required class="block w-full py-2.5 px-2 text-sm text-espresso bg-cream border border-neutral-200 focus:outline-none focus:border-gold" />
+                        </div>
+
+                        <button type="submit" class="w-full bg-velvet text-white hover:bg-gold hover:text-velvet text-xs font-semibold uppercase tracking-widest py-4 transition-all duration-300">
+                            تأكيد طلب حجز موعد معاينة
+                        </button>
+                    </form>
+
+                    <div id="successMessage" class="hidden mt-6 p-4 bg-neutral-100 border border-gold text-center text-sm text-espresso">
+                        تم تسجيل طلب الاستشارة بنجاح. سيقوم مستشارنا الهندسي بالتواصل معكم مباشرة عبر الواتساب لتأكيد الموعد.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-velvet text-white pt-20 pb-10 border-t border-white/10">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 pb-16 border-b border-white/10">
+                
+                <div class="space-y-4">
+                    <span class="font-serifAr text-xl font-bold text-gold tracking-wide block">شركة الرياض للديكور</span>
+                    <p class="text-xs text-neutral-400 font-light leading-relaxed max-w-sm">
+                        مؤسسة سعودية رائدة متخصصة في التصميم الداخلي، التنفيذ الإنشائي، والإشراف الهندسي المتكامل للمشاريع السكنية والتجارية الفاخرة في مدينة الرياض ومنطقة الخليج.
+                    </p>
+                </div>
+
+                <div class="space-y-4">
+                    <h4 class="font-sansEn text-xs font-semibold uppercase tracking-widest text-gold">NAVIGATION</h4>
+                    <div class="grid grid-cols-2 gap-2 text-xs text-neutral-400">
+                        <a href="#" class="hover:text-white transition-colors">الرئيسية</a>
+                        <a href="#about" class="hover:text-white transition-colors">من نحن</a>
+                        <a href="#portfolio" class="hover:text-white transition-colors">أعمالنا</a>
+                        <a href="#services" class="hover:text-white transition-colors">خدماتنا</a>
+                        <a href="#booking" class="hover:text-white transition-colors">الحجوزات الاستشارية</a>
+                    </div>
+                </div>
+
+                <div class="space-y-4">
+                    <h4 class="font-sansEn text-xs font-semibold uppercase tracking-widest text-gold">CONNECTIVITY</h4>
+                    <span class="text-xs text-neutral-400 block">تابعوا فخامة أعمالنا المباشرة:</span>
+                    <div class="flex items-center gap-4 pt-2">
+                        <a href="https://www.instagram.com/riyadh_decor_m?igsh=czkxNDgzc3hoZXk=" target="_blank" class="p-2 border border-white/20 hover:border-gold hover:text-gold transition-colors text-xs flex items-center gap-2">
+                            <span>Instagram</span>
+                        </a>
+                        <a href="https://wa.me/966559353503" target="_blank" class="p-2 border border-white/20 hover:border-gold hover:text-gold transition-colors text-xs flex items-center gap-2">
+                            <span>WhatsApp Connect</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-[11px] text-neutral-500 font-light tracking-wide">
+                <span>&copy; 2026 شركة الرياض للديكور. جميع الحقوق محفوظة.</span>
+                <span class="font-sansEn uppercase tracking-wider">Designed with absolute prestige by <span class="text-neutral-400 font-normal">Maria Guidoum | Web Design Portfolio</span></span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // 1. Sticky Glassmorphism Navbar Configuration
+        const navbar = document.getElementById('navbar');
+        const navBrand = document.getElementById('nav-brand');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 80) {
+                navbar.classList.remove('bg-transparent', 'border-transparent');
+                navbar.classList.add('bg-velvet/90', 'border-white/10', 'py-2');
+                navbar.classList.remove('h-24');
+                navbar.classList.add('h-20');
+            } else {
+                navbar.classList.remove('bg-velvet/90', 'border-white/10', 'py-2');
+                navbar.classList.add('bg-transparent', 'border-transparent');
+                navbar.classList.remove('h-20');
+                navbar.classList.add('h-24');
+            }
+            
+            // Dynamic Active Link Highlighting based on scroll detection
+            let fromTop = window.scrollY + 120;
+            navLinks.forEach(link => {
+                let sectionId = link.getAttribute('data-target');
+                if(!sectionId || sectionId === '#') return;
+                let section = document.getElementById(sectionId);
+                
+                if (section) {
+                    if (section.offsetTop <= fromTop && section.offsetTop + section.offsetHeight > fromTop) {
+                        link.classList.add('text-gold');
+                        link.classList.remove('text-white/70');
+                    } else {
+                        link.classList.remove('text-gold');
+                        link.classList.add('text-white/70');
+                    }
+                }
+            });
+        });
+
+        // 2. JavaScript Tab Filters for Portfolio Grid
+        const tabs = document.querySelectorAll('.portfolio-tab');
+        const items = document.querySelectorAll('.portfolio-item');
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                // Update active tab visuals
+                tabs.forEach(t => {
+                    t.classList.remove('text-gold', 'border-gold');
+                    t.classList.add('text-neutral-400', 'border-transparent');
+                });
+                tab.classList.add('text-gold', 'border-gold');
+                tab.classList.remove('text-neutral-400', 'border-transparent');
+
+                // Filter logic execution
+                const filterValue = tab.getAttribute('data-filter');
+                items.forEach(item => {
+                    if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                        item.style.display = 'block';
+                        setTimeout(() => { item.style.opacity = '1'; }, 50);
+                    } else {
+                        item.style.opacity = '0';
+                        setTimeout(() => { item.style.display = 'none'; }, 300);
+                    }
+                });
+            });
+        });
+
+        // 3. Automated Booking Form Handler & Simulated Validation Verification
+        const bookingForm = document.getElementById('bookingForm');
+        const successMessage = document.getElementById('successMessage');
+
+        bookingForm.addEventListener('submit', (e) => {
+            e.preventDefault(); // Prevent page reload to handle client onboarding smoothly
+            
+            // Gather input attributes values for analytical submission or direct link pipeline triggers if needed
+            const name = document.getElementById('client_name').value;
+            const loc = document.getElementById('location').value;
+            const phone = document.getElementById('whatsapp').value;
+            
+            if(name && loc && phone) {
+                // Display custom luxurious premium notification alert block smoothly
+                successMessage.classList.remove('hidden');
+                bookingForm.reset();
+                
+                // Optional analytical redirect direct hook logic to WhatsApp can be placed here
+                // window.open(`https://wa.me/966559353503?text=السلام%20عليكم،%20تم%20تقديم%20طلب%20معاينة%20بإسم:%20${encodeURIComponent(name)}`, '_blank');
+            }
+        });
+    </script>
+</body>
+</html>
